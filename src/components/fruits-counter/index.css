@@ -1,0 +1,40 @@
+.fruit-bg-container {
+    background-color: #ebc659;
+    padding: 15px;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fruit-card {
+    background-color: #ffffff;
+    min-height: 600px;
+    width: 80%;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fruits-main-heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+.fruit-span {
+    color: #ebc659;
+}
+
+.fruit-image {
+    width: 250px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+

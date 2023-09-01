@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import ClickCounter from './components/clickcounter';
+import Speedometer from './components/speedometer';
+import FruitsCounter from './components/fruits-counter';
+import WelcomeApp from './components/welcome-app';
+import ShowHideApp from './components/show-hide-app';
+import EvenOdd from './components/even-odd-app';
+import LoginUser from './components/login-app';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ClickCounter />
+      <Speedometer />
+      <FruitsCounter />
+      <WelcomeApp />
+      <ShowHideApp />
+      <EvenOdd />
+      <LoginUser />
+    </>
   );
 }
 

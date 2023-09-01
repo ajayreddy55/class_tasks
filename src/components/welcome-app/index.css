@@ -1,0 +1,30 @@
+.welcome-bg-container {
+    background-color: #000000;
+    padding: 18px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-main-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #ccb402;
+    margin-top: 15px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.welcome-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
